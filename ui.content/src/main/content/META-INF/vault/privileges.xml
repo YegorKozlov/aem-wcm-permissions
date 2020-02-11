@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<privileges xmlns:lang="http://github.com/permissions/lang/1.0"
+            xmlns:cq="http://www.day.com/jcr/cq/1.0">
+   <privilege abstract="false" name="lang:es"/>
+   <privilege abstract="false" name="lang:en"/>
+   <privilege abstract="false" name="cq:copyPaste"/>
+</privileges>

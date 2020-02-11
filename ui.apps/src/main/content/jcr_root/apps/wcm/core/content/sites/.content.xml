@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <clientlibs-touchui/>
+    <jcr:content
+        jcr:primaryType="nt:unstructured" >
+        <actions jcr:primaryType="nt:unstructured">
+            <selection jcr:primaryType="nt:unstructured">
+                <hola
+                    granite:rel="cq-siteadmin-admin-actions-lang-es-activator"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/collection/action"
+                    action="lang.hola"
+                    icon="userAdd"
+                    target=".cq-siteadmin-admin-childpages"
+                    text="Hola"
+                    variant="actionBar"/>
+                <hello
+                        granite:rel="cq-siteadmin-admin-actions-lang-en-activator"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/collection/action"
+                        action="lang.hello"
+                        icon="userAdmin"
+                        target=".cq-siteadmin-admin-childpages"
+                        text="Hello"
+                        variant="actionBar"/>
+                <translate
+                        granite:rel="cq-siteadmin-admin-actions-lang-all-activator"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/collection/action"
+                        action="lang.translate"
+                        icon="testABEdit"
+                        target=".cq-siteadmin-admin-childpages"
+                        text="Translate"
+                        variant="actionBar"/>
+            </selection>
+        </actions>
+    </jcr:content>
+</jcr:root>

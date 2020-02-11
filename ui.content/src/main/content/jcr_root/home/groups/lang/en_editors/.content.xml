@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:Group"
+    jcr:uuid="b526498a-2327-3d38-a261-9fa91e55865a"
+    rep:authorizableId="en_editors"
+    rep:members="{WeakReference}[3b3f75c4-17bc-394f-a518-2a37ae3397dc]"
+    rep:principalName="en_editors">
+    <profile
+        jcr:primaryType="nt:unstructured"
+        givenName="EN Editors"/>
+</jcr:root>

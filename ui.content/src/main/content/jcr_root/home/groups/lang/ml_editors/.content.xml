@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:Group"
+    jcr:uuid="0d8c34bd-701f-3d10-a1b6-ccf6c746c3b8"
+    rep:authorizableId="ml_editors"
+    rep:members="{WeakReference}[68a05704-98d3-3e59-a6b0-3ccc00c91e3e]"
+    rep:principalName="ml_editors">
+    <profile
+        jcr:primaryType="nt:unstructured"
+        givenName="Multilingual Editors"/>
+</jcr:root>

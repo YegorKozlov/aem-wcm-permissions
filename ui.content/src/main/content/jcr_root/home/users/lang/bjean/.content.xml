@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    cq:authorizableCategory=""
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:User"
+    jcr:uuid="68a05704-98d3-3e59-a6b0-3ccc00c91e3e"
+    rep:authorizableId="bjean"
+    rep:password="\{SHA-256}b0e16f55d821e6bf-1000-31e7cc1a6d9eb65984bf5484341fd1f1c6ae2a7075ed579bbe11662b3f0c2949"
+    rep:principalName="bjean">
+    <profile
+        jcr:primaryType="nt:unstructured"
+        familyName="Jean"
+        givenName="Billy"/>
+</jcr:root>
