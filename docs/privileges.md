@@ -45,7 +45,7 @@ Once created, custom privileges are regular citizens of the repository.
 You can view and grant them in CRXDE, reference in rep:policy nodes in your content packages 
 or reference in scripting tools like [AC Tool](https://github.com/Netcentric/accesscontroltool) by Netcentric
 
-> [!NOTE]
+> **NOTE**  
 > Registering namespaces and privileges in Jackrabbit Oak is a one-way operation. 
 > The [PrivilegeManager API](https://jackrabbit.apache.org/oak/docs/security/privilege.html) 
 > does not provide a "removePrivilege" operation, so privileges can only be registered, but not unregistered/cleaned up.
