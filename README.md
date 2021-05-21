@@ -1,7 +1,7 @@
 # AEM  Permission-Dependent Buttons Demo
 
 The project demonstrates how to add custom buttons in AEM Sites Admin and show/hide them
-based on user privileges.
+based on custom user privileges.
 
 ## Modules
 The project consists of three modules
